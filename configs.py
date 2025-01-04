@@ -40,7 +40,7 @@ class Config(object):
 	API_HASH = os.environ.get("API_HASH", "b642a25aee67b2aed02116df4a916bca")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN","")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "Tv_serial_wala_bot")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "2464233291"))
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002464233291"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "7459282233"))
 	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://ankushdeb91:WpbkXkwE0rL98h7q@cluster0.cpl3y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-10012200165721")
